@@ -21,6 +21,6 @@ def about():
 def signup():
     form = SignupForm()
     return render_template("signup.html", form = form)
-
+# main
 if __name__ == "__main__":
     app.run(debug=True)
